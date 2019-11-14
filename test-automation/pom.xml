@@ -4,19 +4,14 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<artifactId>mics-automation</artifactId>
+	<artifactId>test-automation</artifactId>
 	<version>1.0-SNAPSHOT</version>
 	<packaging>war</packaging>
-	<name>mics-automation Webapp</name>
+	<name>test-automation Webapp</name>
 
-	<parent>
-		<groupId>com.abnamro.clearing</groupId>
-		<artifactId>aac-java-starter-parent</artifactId>
-		<version>1.0.82</version>
-	</parent>
 	<scm>
-		<connection>scm:git:ssh://git@bitbucket-ap:7999/ops/mics-automation.git</connection>
-		<developerConnection>scm:git:ssh://git@bitbucket-ap:7999/ops/mics-automation.git</developerConnection>
+		<connection>scm:git:ssh://git@bitbucket-ap:7999/ops/test-automation.git</connection>
+		<developerConnection>scm:git:ssh://git@bitbucket-ap:7999/ops/test-automation.git</developerConnection>
 		<tag>HEAD</tag>
 	</scm>
 
@@ -68,7 +63,7 @@
 	</dependencies>
 
 	<build>
-		<finalName>mics-automation</finalName>
+		<finalName>test-automation</finalName>
         <plugins>
             <plugin>
                 <groupId>org.jacoco</groupId>
