@@ -1,0 +1,24 @@
+# Transient directories
+target/
+build/
+bin/
+tmp/
+out/
+META-INF
+
+# Eclipse 
+.settings
+.project
+.metadata
+.classpath
+.checkstyle
+.factorypath
+*.log
+
+# Intellij 
+.idea/
+*.iws
+*.iml
+
+src/main/frontend/node/
+.editorconfig
